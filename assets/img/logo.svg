@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 芯片封装（四角引出引脚） -->
+  <rect x="18" y="18" width="28" height="28" rx="6" fill="#1A2B4C"/>
+  <!-- 引脚：四边各 3 个 -->
+  <g stroke="#1A2B4C" stroke-width="3.2" stroke-linecap="round">
+    <path d="M20 12v6 M28 12v6 M36 12v6 M44 12v6 M20 46v6 M28 46v6 M36 46v6 M44 46v6 M12 20h6 M12 28h6 M12 36h6 M46 20h6 M46 28h6 M46 36h6"/>
+  </g>
+  <!-- 声波弧线（AI 录音） -->
+  <path d="M23 27a9 9 0 0 1 0 10 M29 24a15 15 0 0 1 0 16" stroke="#2F6BFF" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <!-- 金手指触点 -->
+  <circle cx="32" cy="32" r="3" fill="#C9A24B"/>
+  <circle cx="41" cy="41" r="2" fill="#C9A24B" opacity=".8"/>
+</svg>

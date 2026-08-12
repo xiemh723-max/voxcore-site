@@ -1,0 +1,69 @@
+/* design-tokens.css — 全站唯一设计源「宪法」。
+ * 任何页面不得修改、不得绕过此文件；改设计 = 改 tokens，不是改单个页面。
+ * 品牌：声芯科技 VOXCORE · AI 录音卡芯片 · 白底简洁专业
+ */
+:root{
+
+  /* ===== 品牌色 ===== */
+  --navy:#1A2B4C;         /* 深海军蓝 · 主色（专业/可信） */
+  --navy-deep:#101E36;    /* 更深蓝 · hover/深色底 */
+  --navy-soft:#EEF2FA;    /* 浅蓝底 */
+
+  --blue:#2F6BFF;         /* 电光蓝 · 强调（技术/AI） */
+  --blue-deep:#1F4FD8;    /* 深电光蓝 · hover */
+  --blue-soft:#E7EEFF;    /* 浅蓝强调底 */
+
+  --gold:#C9A24B;         /* 金手指金 · 点缀（镀金触点） */
+  --gold-soft:#F7F0E0;    /* 浅金底 */
+  --gold-deep:#6B4F1B;    /* 深金棕 · 金色标签上的文字（对比度 ≥4.5:1） */
+
+  /* ===== 中性色 ===== */
+  --bg:#F7F9FC;           /* 极浅蓝灰底 */
+  --surface:#FFFFFF;      /* 卡片白底 */
+  --ink:#16213A;          /* 正文墨蓝 */
+  --muted:#5A6780;        /* 次要文字 */
+  --border:#E4E8F0;       /* 分隔线 */
+  --border-strong:#CBD2E0;
+
+  /* 深色区块文字 */
+  --on-dark:#FFFFFF;
+  --on-dark-muted:#B8C4D8;
+  --on-dark-bright:#E8ECF4;   /* 深色底上的亮正文（CTA 副标题，对比度 ≥4.5:1） */
+  --on-dark-border:#2A3B5C;
+
+  /* 深色区块强调与 silk 标签 */
+  --accent-on-dark:#7EA4FF;
+  --silk-on-dark:#9DB8FF;
+  --silk-bg-on-dark:rgba(47,107,255,.14);
+  --silk-border-on-dark:rgba(47,107,255,.4);
+
+  /* 深色底（页脚/CTA 用） */
+  --ink-deep:#0D1626;
+
+  /* ===== 字体（零 CDN · 系统栈） ===== */
+  --font-body:"Segoe UI","PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  --font-display:"Segoe UI","Bahnschrift","PingFang SC","Microsoft YaHei",sans-serif;
+  --font-mono:"SF Mono","Consolas","Cascadia Code","Courier New",monospace;
+
+  /* ===== 形状 ===== */
+  --radius:14px;
+  --radius-sm:9px;
+  --radius-lg:24px;
+  --radius-full:99px;
+  --shadow-sm:0 2px 8px rgba(22,33,58,.05),0 8px 24px rgba(22,33,58,.06);
+  --shadow-md:0 10px 30px rgba(22,33,58,.10),0 24px 56px rgba(47,107,255,.10);
+  --shadow-lg:0 24px 64px rgba(22,33,58,.16);
+  --shadow-blue:0 16px 44px rgba(47,107,255,.22);
+
+  /* ===== 布局 ===== */
+  --container:1180px;
+  --section:100px;
+  --section-sm:70px;
+  --gutter:24px;
+  --nav-h:74px;
+  --header-h:74px;
+
+  /* 过渡 */
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --dur:.28s;
+}

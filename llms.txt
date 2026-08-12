@@ -1,0 +1,17 @@
+# 声芯科技 VOXCORE
+
+AI 录音芯片与整机方案供应商：芯片 / 模组 / 成品，另提供 ODM 定制。B2B 供应 + 自有成品。
+
+## 核心页面
+- 首页 https://voxcore.com/ — 品牌与服务总览
+- 产品中心 https://voxcore.com/products.html — AI 录音芯片/模组/成品
+- 应用场景 https://voxcore.com/applications.html — 录音笔/会议/教育/医疗/穿戴
+- 解决方案 https://voxcore.com/solutions.html — 定制方案与技术合作
+- 关于我们 https://voxcore.com/about.html — 公司/产能/质量
+- 联系 https://voxcore.com/contact.html — 询盘与样片申请
+
+## 核心产品
+- VX-100 旗舰 AI 录音芯片（双麦阵列 + NPU 4 TOPS）
+- VX-200 低功耗芯片（录音/语义转写，功耗 45mW）
+- 录音笔模组 / 会议转写模组
+- 智能录音笔成品（离线转写/降噪）
